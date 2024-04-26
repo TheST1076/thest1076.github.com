@@ -1,15 +1,17 @@
-.Tab {
+.Headtext {
     margin-top: 5em;
     margin-bottom: 2em;
     font-family: "Cascadia Code", monospace;
     src: url('woff/CascadiaCode.woff2') format('woff2');
     font-style: normal;
     text-align: center;
-    border-bottom: 2em solid black;
+    border-bottom: 1px solid black;
 }
 
-p {
+.Text {
     margin-top: 2em;
-    margin-left: 8em;
-    margin-right: 8em;
+    margin-left: 4ch;
+    margin-right: 4ch;
+    font-family: "Cascadia Code", monospace;
+    font-weight: 400;
 }
