@@ -1,6 +1,9 @@
 .Tab {
     margin-top: 5em;
     margin-bottom: 1em;
-    padding: center;
     font-family: 'Cascadia Code', Courier, monospace;
+    src: url(woff/CascadiaCode.woff2) format(woff);
+    font-style: normal;
+    text-align: center;
+    border-bottom: 3em black;
 }
