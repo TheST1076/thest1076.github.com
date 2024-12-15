@@ -1,3 +1,16 @@
+body {
+    background: linear-gradient(-45deg, #065a53, #083b64, #10196d, #330e6e);
+    background-size: 300% 300%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
 .Headtext {
     margin-top: 5em;
     margin-bottom: 2em;
@@ -5,7 +18,8 @@
     src: url('woff/CascadiaCode.woff2') format('woff2');
     font-style: normal;
     text-align: center;
-    border-bottom: 1px solid black;
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 .Text {
@@ -14,4 +28,38 @@
     margin-right: 4ch;
     font-family: "Cascadia Code", monospace;
     font-weight: 400;
+    color: white;
+}
+
+.MyLink {
+    margin-top: 3em;
+    font-family: "Cascadia Code", monospace;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
+    color: white;
+
+a:link {
+  color: #e0e0e0e0;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e0e0e0e0;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #11e723e0;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #000000e0;
+  background-color: transparent;
+  text-decoration: underline;
+}
 }
