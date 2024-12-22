@@ -1,2 +1,2 @@
-﻿# thest1076.github.com
+﻿# thest1076.github.io
 test
